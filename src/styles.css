@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+.caprino-bg-green {
+    background-color: #95C11F;
+}
+
+.caprino-bg-red {
+    background-color: #D60B52;
+}
+
+.caprino-bg-orange {
+    background-color: #F39200;
+}
