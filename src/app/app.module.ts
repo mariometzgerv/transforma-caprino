@@ -14,6 +14,7 @@ import { PageHistoryComponent } from './features/pages/page-history/page-history
 import { AxisComponent } from './features/components/axis/axis.component';
 import { ProfileComponent } from './features/components/profile/profile.component';
 import { NewsItemComponent } from './features/components/news-item/news-item.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { NewsItemComponent } from './features/components/news-item/news-item.com
     PageHistoryComponent,
     AxisComponent,
     ProfileComponent,
-    NewsItemComponent
+    NewsItemComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
