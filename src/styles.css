@@ -14,6 +14,10 @@
     font-size: 28px;
 }
 
-.caprino-card-size {
+.caprino-card-size-sm {
     height: 200px;
+}
+
+.caprino-card-size-lg {
+    height: 400px;
 }

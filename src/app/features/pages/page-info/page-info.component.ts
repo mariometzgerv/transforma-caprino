@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import purposeinfo from "src/assets/files/purposeinfo.json";
+import purposeinfo from "src/assets/files/purpose-info.json";
 
 @Component({
   selector: 'app-page-info',
