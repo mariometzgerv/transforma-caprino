@@ -15,6 +15,7 @@ import { AxisComponent } from './features/components/axis/axis.component';
 import { ProfileComponent } from './features/components/profile/profile.component';
 import { NewsItemComponent } from './features/components/news-item/news-item.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
+import { PurposeComponent } from './features/components/purpose/purpose.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { FooterComponent } from './shared/components/footer/footer.component';
     AxisComponent,
     ProfileComponent,
     NewsItemComponent,
-    FooterComponent
+    FooterComponent,
+    PurposeComponent
   ],
   imports: [
     BrowserModule,

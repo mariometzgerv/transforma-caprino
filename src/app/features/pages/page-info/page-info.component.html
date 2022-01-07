@@ -19,9 +19,9 @@
 <div class="shadow-lg caprino-bg-orange">
     <div class="container my-5">
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-            <app-axis></app-axis>
-            <app-axis></app-axis>
-            <app-axis></app-axis>
+            <ng-container *ngFor="let info of purpose_info">
+                <app-purpose [title]="info.title" [description]="info.description"></app-purpose>
+            </ng-container>
         </div>
     </div>
 </div>
