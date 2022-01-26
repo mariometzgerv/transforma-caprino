@@ -1,17 +1,22 @@
 [
     {
         "axis": 1,
-        "title": "TÃ­tulo 1",
-        "description": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+        "title": "Posicionar los productos caprinos, en nichos de mercado sofisticados"
     },
     {
         "axis": 2,
-        "title": "TÃ­tulo 2",
-        "description": "This is a card with supporting text below as a natural lead-in to additional content."
+        "title": "Diversificar y sofisticar la oferta de productos y servicios asociados rubro"
     },
     {
         "axis": 3,
-        "title": "TÃ­tulo 3",
-        "description": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+        "title": "Fortalecer las capacidades productivas, comerciales y gestión empresarial de los productores y extensionistas caprinos"
+    },
+    {
+        "axis": 4,
+        "title": "Apoyar inversiones en infraestructura y equipamiento para el desarrollo de oportunidades de negocios"
+    },
+    {
+        "axis": 5,
+        "title": "Fortalecer la coordinación institucional público y privada en torno al rubro"
     }
 ]

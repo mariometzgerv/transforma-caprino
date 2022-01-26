@@ -8,7 +8,7 @@ import axisinfo from "src/assets/files/axis-info.json";
 })
 export class PageHomeComponent implements OnInit {
 
-  axis_info: { axis: number, title: string, description: string } [] = axisinfo;
+  axis_info: { axis: number, title: string } [] = axisinfo;
 
   constructor() { }
 

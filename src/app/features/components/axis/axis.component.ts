@@ -9,7 +9,6 @@ export class AxisComponent implements OnInit {
 
   @Input() axis: number = 1;
   @Input() title: string = "Default";
-  @Input() description: string = "Default";
 
   constructor() { }
 

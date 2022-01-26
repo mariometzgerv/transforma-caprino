@@ -28,11 +28,10 @@
 <div class="container col-xxl-8 px-4 py-5">
   <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
     <div class="col-lg-6">
-      <h1 class="display-5 fw-bold lh-1 mb-3">Transforma Caprino</h1>
+      <h1 class="display-5 fw-bold lh-1 mb-3">Proyecto Transforma Caprino</h1>
       <p class="lead">
-        Quickly design and customize responsive mobile-first sites with Bootstrap, the worldâ€™s
-        most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-        extensive prebuilt components, and powerful JavaScript plugins.</p>
+        "Programa de Desarrollo de la agroindustria elaboradora de productos caprinos en la Región de Coquimbo"
+      </p>
     </div>
     <div class="col-10 col-sm-8 col-lg-6">
       <video width="100%" controls>
@@ -46,17 +45,21 @@
   <div class="row flex-lg-row-reverse align-items-center">
     <h1 class="display-5 fw-bold lh-1 mb-3 text-center">Estrategia</h1>
     <p class="lead text-center py-3">
-      Quickly design and customize responsive mobile-first sites with Bootstrap, the worldâ€™s
-      most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-      extensive prebuilt components, and powerful JavaScript plugins.</p>
+      Dentro de los lineamientos que tiene el programa, se encuentra el desarrollo turístico para los capricultores.
+      A raíz de esto, ya se llevó a cabo la primera acción práctica, correspondiente a una charla impartida por
+      Julio Carmona (Sernatur), que tuvo por objetivo de entregar las orientaciones iniciales para dar forma a
+      un servicio turístico formalizado. La misión es darles un respaldo formativo a los crianceros que buscan innovar,
+      implementando servicios turísticos que permitan dar a conocer un estilo de vida rural, donde toda la familia se
+      involucra en las labores de criar, alimentar y ordeñar a los rebaños.
+    </p>
   </div>
 </div>
 
 <div class="container px-4 py-5" id="custom-cards">
-  <h1 class="pb-2 border-bottom">Propuesta de valor</h1>
+  <h1 class="pb-2 border-bottom">Propuesta de valor y objetivos</h1>
   <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
     <ng-container *ngFor="let info of axis_info">
-      <app-axis [axis]="info.axis" [title]="info.title" [description]="info.description"></app-axis>
+      <app-axis [axis]="info.axis" [title]="info.title"></app-axis>
     </ng-container>
   </div>
 </div>
