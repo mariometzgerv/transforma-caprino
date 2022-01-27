@@ -1,0 +1,56 @@
+[
+    {
+        "id": 8,
+        "img": "./assets/images/news/9.jpg",
+        "date": "28/02/2022",
+        "title": "Título 9"
+    },
+    {
+        "id": 7,
+        "img": "./assets/images/news/8.jpg",
+        "date": "27/02/2022",
+        "title": "Título 8"
+    },
+    {
+        "id": 6,
+        "img": "./assets/images/news/7.jpg",
+        "date": "20/02/2022",
+        "title": "Título 7"
+    },
+    {
+        "id": 5,
+        "img": "./assets/images/news/6.jpg",
+        "date": "03/02/2022",
+        "title": "Título 6"
+    },
+    {
+        "id": 4,
+        "img": "./assets/images/news/5.jpg",
+        "date": "29/01/2022",
+        "title": "Título 5"
+    },
+    {
+        "id": 3,
+        "img": "./assets/images/news/4.jpg",
+        "date": "21/01/2022",
+        "title": "Título 4"
+    },
+    {
+        "id": 2,
+        "img": "./assets/images/news/3.jpg",
+        "date": "10/01/2022",
+        "title": "Título 3"
+    },
+    {
+        "id": 1,
+        "img": "./assets/images/news/2.jpg",
+        "date": "08/01/2022",
+        "title": "Título 2"
+    },
+    {
+        "id": 0,
+        "img": "./assets/images/news/1.jpg",
+        "date": "01/01/2022",
+        "title": "Título 1"
+    }
+]
