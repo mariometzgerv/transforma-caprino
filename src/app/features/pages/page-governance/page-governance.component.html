@@ -12,18 +12,6 @@
 </div>
 
 <div class="container mt-5 text-center">
-    <h2 class="display-7 fw-bold lh-1">Ejes estratégicos e Iniciativas</h2>
-</div>
-
-<div class="container px-4" id="custom-cards">
-    <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
-        <ng-container *ngFor="let info of axis_info">
-            <app-axis [axis]="info.axis" [title]="info.title" [objective]="info.objective" [initiatives]="info.initiatives"></app-axis>
-        </ng-container>
-    </div>
-</div>
-
-<div class="container mt-5 text-center">
     <h2 class="display-7 fw-bold lh-1">Centro Agropecuario Catahueche</h2>
 </div>
 
@@ -70,11 +58,6 @@
 
 <div class="row row-cols-1 row-cols-lg-5 p-5 justify-content-evenly">
     <div class="col py-3 rounded-5 caprino-actors-logo">
-        <a href="https://www.corfo.cl/sites/cpp/homecorfo" target="_blank">
-            <img class="d-block mx-auto caprino-img-size-sm" src="./assets/images/actors/corfo-logo.png">
-        </a>
-    </div>
-    <div class="col py-3 rounded-5 caprino-actors-logo">
         <a href="https://www.asoex.cl/" target="_blank">
             <img class="d-block mx-auto caprino-img-size-md" src="./assets/images/actors/asoex-logo.png">
         </a>
@@ -87,6 +70,11 @@
     <div class="col py-3 rounded-5 caprino-actors-logo">
         <a href="https://www.gorecoquimbo.cl/" target="_blank">
             <img class="d-block mx-auto caprino-img-size-md" src="./assets/images/actors/gobierno-regional-logo.jpg">
+        </a>
+    </div>
+    <div class="col py-3 rounded-5 caprino-actors-logo">
+        <a href="https://www.corfo.cl/sites/cpp/homecorfo" target="_blank">
+            <img class="d-block mx-auto caprino-img-size-sm" src="./assets/images/actors/corfo-logo.png">
         </a>
     </div>
 </div>
