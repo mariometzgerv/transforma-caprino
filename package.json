@@ -6,10 +6,18 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "postinstall": "ng build --prod"
+  },
+  "engines": {
+    "node": "12.18.4",
+    "npm": "7.21.1"
   },
   "private": true,
   "dependencies": {
+    "@angular-devkit/build-angular": "~12.2.3",
+    "@angular/cli": "~12.2.3",
+    "@angular/compiler-cli": "~12.2.0",
     "@angular/animations": "~12.2.0",
     "@angular/common": "~12.2.0",
     "@angular/compiler": "~12.2.0",
