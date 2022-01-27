@@ -2,77 +2,93 @@
     <h1 class="display-5 fw-bold lh-1 mb-3 text-center">Gobernanza</h1>
 </div>
 
-<div class="container my-5">
-    <p class="lead text-center">Aunque la regi髇 se destaca por una fuerte institucionalidad tanto de investigaci髇,
-        transferencia y capacitaci髇 en el 醨ea caprina; con importantes esfuerzos de coordinaci髇 interinstitucional
-        en el sector, especialmente a trav閟 del instrumento PTI; existe un reconocimiento de los actores que a鷑 la
-        institucional es d閎il entre los agentes p鷅lico-privado y p鷅lico-p鷅lico.
+<div class="container my-5 shadow-lg">
+    <p class="lead text-center p-5">
+        Aunque la regi贸n se destaca por una fuerte institucionalidad tanto de investigaci贸n,
+        transferencia y capacitaci贸n en el 谩rea caprina; con importantes esfuerzos de coordinaci贸n interinstitucional
+        en el sector, especialmente a trav茅s del instrumento PTI; existe un reconocimiento de los actores que a煤n la
+        institucional es d茅bil entre los agentes p煤blico-privado y p煤blico-p煤blico.
     </p>
 </div>
 
-<div class="container my-5">
-    <h2 class="display-7 fw-bold lh-1 mb-3">Objetivos estrat茅gicos</h2>
-</div>
-
-<div class="container my-5">
-    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world鈥檚
-        most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-        extensive prebuilt components, and powerful JavaScript plugins.
-    </p>
+<div class="container mt-5 text-center">
+    <h2 class="display-7 fw-bold lh-1">Ejes estrat茅gicos e Iniciativas</h2>
 </div>
 
 <div class="container px-4" id="custom-cards">
-    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-      <app-axis></app-axis>
-      <app-axis></app-axis>
-      <app-axis></app-axis>
-      <app-axis></app-axis>
-      <app-axis></app-axis>
-      <app-axis></app-axis>
+    <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
+        <ng-container *ngFor="let info of axis_info">
+            <app-axis [axis]="info.axis" [title]="info.title" [objective]="info.objective" [initiatives]="info.initiatives"></app-axis>
+        </ng-container>
     </div>
 </div>
 
-<div class="container my-5">
-    <div class="row align-items-center">
+<div class="container mt-5 text-center">
+    <h2 class="display-7 fw-bold lh-1">Centro Agropecuario Catahueche</h2>
+</div>
+
+<div class="container my-5 shadow-lg">
+    <div class="row align-items-center py-4 rounded rounded-lg">
         <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-            <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world鈥檚
-                most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-                extensive prebuilt components, and powerful JavaScript plugins.
+            <p class="lead">
+                Estas instalaciones ubicadas en la localidad de Canela Baja, albergan la actividad productiva de numerosas
+                comunidades agr铆colas bajo tres ejes estructurales: la sustentabilidad, la calidad de vida y la innovaci贸n
+                alimentaria. Este centro ha dado espacio para la creaci贸n de nuevos productos, en especial alimentos c谩rnicos
+                innovadores para el sector, como son las hamburguesas, la carne mechada, longanizas y lomo ahumado, entre otros.
             </p>
         </div>
         <div class="col-lg-4 overflow-hidden">
-            <img class="rounded-lg-3" src="./assets/images/img1.jpg" width="500px">
+            <img class="rounded-lg-3" src="./assets/images/catahueche.jpg" width="500px">
         </div>
     </div>
 </div>
 
-<div class="container my-5">
-    <div class="row align-items-center">
+<div class="container mt-5 text-center">
+    <h2 class="display-7 fw-bold lh-1">Asociaci贸n Gremial de Capricultores de Coquimbo</h2>
+</div>
+
+<div class="container my-5 shadow-lg">
+    <div class="row align-items-center py-4 rounded rounded-lg">
         <div class="col-lg-4 overflow-hidden">
-            <img class="rounded-lg-3" src="./assets/images/img2.jpg" width="500px">
+            <img class="rounded-lg-3" src="./assets/images/capricultores.jpg" width="500px">
         </div>
         <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-            <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world鈥檚
-                most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-                extensive prebuilt components, and powerful JavaScript plugins.
+            <p class="lead">
+                Este nuevo cuerpo asociativo se conform贸 en septiembre de 2020 y est谩 conformado por 11 socios provenientes
+                de distintas comunas de la regi贸n. Sus objetivos est谩n relacionados a fortalecer a la industria caprina
+                dedicada a los alimentos, como son el queso, el charqui, la carne y la leche. Adem谩s, pretende afrontar
+                problem谩ticas transversales de la industria y ampliar su representatividad, sumando valor a la cadena de
+                valor de los productos caprinos.
             </p>
         </div>
     </div>
 </div>
 
-<div class="container my-5">
-    <h2 class="display-7 fw-bold lh-1 mb-3">Actores claves</h2>
+<div class="container mt-5 text-center">
+    <h1 class="display-7 fw-bold lh-1">Actores claves</h1>
 </div>
 
-<div class="container my-5">
-    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world鈥檚
-        most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-        extensive prebuilt components, and powerful JavaScript plugins.
-    </p>
-</div>
-
-<div class="container my-5 align-items-center">
-    <img class="rounded-lg-3" src="./assets/images/img3.jpg" width="100%">
+<div class="row row-cols-1 row-cols-lg-5 p-5 justify-content-evenly">
+    <div class="col py-3 rounded-5 caprino-actors-logo">
+        <a href="https://www.corfo.cl/sites/cpp/homecorfo" target="_blank">
+            <img class="d-block mx-auto caprino-img-size-sm" src="./assets/images/actors/corfo-logo.png">
+        </a>
+    </div>
+    <div class="col py-3 rounded-5 caprino-actors-logo">
+        <a href="https://www.asoex.cl/" target="_blank">
+            <img class="d-block mx-auto caprino-img-size-md" src="./assets/images/actors/asoex-logo.png">
+        </a>
+    </div>
+    <div class="col py-3 rounded-5 caprino-actors-logo">
+        <a href="https://www.sernatur.cl/gestion-territorial/" target="_blank">
+            <img class="d-block mx-auto caprino-img-size-lg" src="./assets/images/actors/gestion-territorial-logo.png">
+        </a>
+    </div>
+    <div class="col py-3 rounded-5 caprino-actors-logo">
+        <a href="https://www.gorecoquimbo.cl/" target="_blank">
+            <img class="d-block mx-auto caprino-img-size-md" src="./assets/images/actors/gobierno-regional-logo.jpg">
+        </a>
+    </div>
 </div>
 
 <app-footer></app-footer>

@@ -1,8 +1,15 @@
-<div class="col">
-    <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg caprino-bg-red">
-        <div class="d-flex flex-column p-5 pb-3 text-white text-shadow-1 caprino-card-size-lg">
-            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Objetivo {{ axis }}</h2>
-            <h4 class="mb-4 fw-bold">{{ title }}</h4>
+<div class="col shadow-sm">
+    <div class="card card-cover overflow-hidden text-black text-center rounded-5 shadow-lg caprino-bg-orange caprino-card caprino-card-min-size-sm">
+        <div class="d-flex flex-column pt-5 px-3 text-shadow-1" (click)="expand()">
+            <h1 class="display-6 pb-3 fw-bold">Eje {{ axis }}: {{ title }}</h1>
+            <p class="lead pb-3">{{ objective }}</p>
+        </div>
+        <div *ngIf="expanded">
+            <ul class="lead p-3">
+                <ng-container *ngFor="let initiative of initiatives">
+                    <li class="card card-cover p-3 mb-2 rounded-5 shadow-lg caprino-bg-orange">{{ initiative }}
+                </ng-container>
+            </ul>
         </div>
     </div>
 </div>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import axisinfo from "src/assets/files/axis-info.json";
+import objectiveinfo from "src/assets/files/objective-info.json";
 
 @Component({
   selector: 'app-page-home',
@@ -8,7 +8,7 @@ import axisinfo from "src/assets/files/axis-info.json";
 })
 export class PageHomeComponent implements OnInit {
 
-  axis_info: { axis: number, title: string } [] = axisinfo;
+  obj_info: { obj: number, title: string } [] = objectiveinfo;
 
   constructor() { }
 

@@ -1,3 +1,20 @@
-<h1>ESTE SITIO SE ENCUENTRA EN CONSTRUCCIÓN!!!</h1>
+<div class="row row-cols-sm-2">
+    <div class="col-sm-1 my-auto text-center">
+        <img class="rounded mx-auto d-block" src="./assets/images/providers.png">
+    </div>
+
+    <div class="container p-5 shadow-lg">
+        <pagination-controls (pageChange)="page = $event"
+            previousLabel="Anterior"
+            nextLabel="Siguiente">
+        </pagination-controls>
+
+        <div class="row row-cols-sm-1 g-3 mb-5">
+            <div *ngFor="let provider of providers | paginate: { itemsPerPage: 3, currentPage: page }">
+                <app-provider></app-provider>
+            </div>
+        </div>
+    </div>
+</div>
 
 <app-footer></app-footer>

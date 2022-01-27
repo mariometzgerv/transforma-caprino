@@ -16,6 +16,9 @@ import { ProfileComponent } from './features/components/profile/profile.componen
 import { NewsItemComponent } from './features/components/news-item/news-item.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { PurposeComponent } from './features/components/purpose/purpose.component';
+import { ObjectiveComponent } from './features/components/objective/objective.component';
+import { PageNewsDetailComponent } from './features/pages/page-news-detail/page-news-detail.component';
+import { ProviderComponent } from './features/components/provider/provider.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,10 @@ import { PurposeComponent } from './features/components/purpose/purpose.componen
     ProfileComponent,
     NewsItemComponent,
     FooterComponent,
-    PurposeComponent
+    PurposeComponent,
+    ObjectiveComponent,
+    PageNewsDetailComponent,
+    ProviderComponent
   ],
   imports: [
     BrowserModule,

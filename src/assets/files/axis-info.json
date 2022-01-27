@@ -1,22 +1,57 @@
 [
     {
         "axis": 1,
-        "title": "Posicionar los productos caprinos, en nichos de mercado sofisticados"
+        "title": "Mercado",
+        "objective": "Promover y posicionar los productos l谩cteos y c谩rnicos caprinos en el mercado",
+        "initiatives":
+        [
+            "Programa de prospecci贸n de mercados.",
+            "Plan de marketing que permita el posicionamiento nacional y regional de productos caprinos.",
+            "Plan de captura y fidelizaci贸n de clientes."
+        ]
     },
     {
         "axis": 2,
-        "title": "Diversificar y sofisticar la oferta de productos y servicios asociados rubro"
+        "title": "Diversificaci贸n y sofisticaci贸n",
+        "objective": "Diversificar y sofisticar la oferta de productos y servicios asociados rubro.",
+        "initiatives":
+        [
+            "Implementar un programa de desarrollo y diversificaci贸n de productos.",
+            "Programa de desarrollo y posicionamiento de una oferta gastron贸mica caprina.",
+            "Programa de creaci贸n y desarrollo de una oferta tur铆stica caprina.",
+            "Implementar un programa de captura tecnol贸gica para innovaciones en el rubro."
+        ]
     },
     {
         "axis": 3,
-        "title": "Fortalecer las capacidades productivas, comerciales y gesti髇 empresarial de los productores y extensionistas caprinos"
+        "title": "Desarrollo de capacidades",
+        "objective": "Fortalecer  las capacidades productivas, comerciales y gesti贸n empresarial de los productores, profesionales y t茅cnicos vinculados al rubro caprinos.",
+        "initiatives":
+        [
+            "Programa de transferencia tecnol贸gica a productores.",
+            "Programa de aseguramiento de la inocuidad y calidad de los productos.",
+            "Programa de fortalecimiento de capacidades empresariales en los productores.",
+            "Implementaci贸n de iniciativas para la sustentabilidad y sostenibilidad de la actividad caprina.",
+            "Implementar un programa de formaci贸n de extensionistas."
+        ]
     },
     {
         "axis": 4,
-        "title": "Apoyar inversiones en infraestructura y equipamiento para el desarrollo de oportunidades de negocios"
+        "title": "Infraestructura habilitante",
+        "objective": "Apoyar inversiones en infraestructura y equipamiento para el desarrollo de  oportunidades de negocios.",
+        "initiatives":
+        [
+            "Plan para el desarrollo de infraestructura y equipamiento habilitante."
+        ]
     },
     {
         "axis": 5,
-        "title": "Fortalecer la coordinaci髇 institucional p鷅lico y privada en torno al rubro"
+        "title": "Gobernanza",
+        "objective": "Fortalecer la coordinaci贸n institucional p煤blico y privada en torno al rubro caprino.",
+        "initiatives":
+        [
+            "Plan de posicionamiento de proyecto Transforma en las entidades nacionales y regionales.",
+            "Plan de fortalecimiento de la gobernanza de los actores del rubro para la concreci贸n de las iniciativas de la hoja de ruta."
+        ]
     }
 ]

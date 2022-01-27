@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import newsinfo from "src/assets/files/news-info.json";
 
 @Component({
   selector: 'app-page-news',
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class PageNewsComponent implements OnInit {
 
   page: number = 0;
-  news: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+  news: { id: number, img:string, date: string, title: string } [] = newsinfo;
 
   constructor() { }
 

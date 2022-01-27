@@ -10,8 +10,29 @@
     background-color: #F39200;
 }
 
-.caprino-icon-size {
+.caprino-icon-social {
     font-size: 28px;
+    color: black;
+    transition: color 0.5s;
+}
+
+.caprino-icon-social:hover {
+    color: #D60B52;
+}
+
+.caprino-img-size-sm {
+    height: 60px;
+    width: auto;
+}
+
+.caprino-img-size-md {
+    height: 100px;
+    width: auto;
+}
+
+.caprino-img-size-lg {
+    height: 120px;
+    width: auto;
 }
 
 .caprino-card-size-sm {
@@ -19,5 +40,30 @@
 }
 
 .caprino-card-size-lg {
-    height: 400px;
+    height: 450px;
+}
+
+.caprino-card-min-size-sm {
+    min-height: 300px;
+}
+
+.caprino-card, .caprino-actors-logo, .caprino-news {
+    border: 5px solid rgba(0, 0, 0, 0);
+    transition: border 0.5s;
+}
+
+.caprino-actors-logo {
+    border-radius: 10px;
+}
+
+.caprino-news:hover {
+    border-color: #F39200;
+}
+
+.caprino-card:hover {
+    border-color: #D60B52;
+}
+
+.caprino-actors-logo:hover {
+    border-color: #95C11F;
 }

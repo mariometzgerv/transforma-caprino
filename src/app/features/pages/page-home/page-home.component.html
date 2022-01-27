@@ -25,12 +25,12 @@
   </button>
 </div>
 
-<div class="container col-xxl-8 px-4 py-5">
+<div class="container col-xxl-8 px-4 py-5 shadow-lg">
   <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
     <div class="col-lg-6">
       <h1 class="display-5 fw-bold lh-1 mb-3">Proyecto Transforma Caprino</h1>
       <p class="lead">
-        "Programa de Desarrollo de la agroindustria elaboradora de productos caprinos en la RegiÛn de Coquimbo"
+        "Programa de Desarrollo de la agroindustria elaboradora de productos caprinos en la Regi√≥n de Coquimbo"
       </p>
     </div>
     <div class="col-10 col-sm-8 col-lg-6">
@@ -45,21 +45,21 @@
   <div class="row flex-lg-row-reverse align-items-center">
     <h1 class="display-5 fw-bold lh-1 mb-3 text-center">Estrategia</h1>
     <p class="lead text-center py-3">
-      Dentro de los lineamientos que tiene el programa, se encuentra el desarrollo turÌstico para los capricultores.
-      A raÌz de esto, ya se llevÛ a cabo la primera acciÛn pr·ctica, correspondiente a una charla impartida por
-      Julio Carmona (Sernatur), que tuvo por objetivo de entregar las orientaciones iniciales para dar forma a
-      un servicio turÌstico formalizado. La misiÛn es darles un respaldo formativo a los crianceros que buscan innovar,
-      implementando servicios turÌsticos que permitan dar a conocer un estilo de vida rural, donde toda la familia se
-      involucra en las labores de criar, alimentar y ordeÒar a los rebaÒos.
+      Dentro de los lineamientos que tiene el programa, se encuentra el desarrollo tur√≠stico para los capricultores.
+      A ra√≠z de esto, ya se llev√≥ a cabo la primera acci√≥n pr√°ctica, correspondiente a una charla impartida por
+      Julio Carmona (Sernatur), que tuvo por objetivo de entregar las orientaciones iniciales para dar forma a un
+      servicio tur√≠stico formalizado. La misi√≥n es darles un respaldo formativo a los crianceros que buscan innovar,
+      implementando servicios tur√≠sticos que permitan dar a conocer un estilo de vida rural, donde toda la familia
+      se involucra en las labores de criar, alimentar y orde√±ar a los reba√±os.
     </p>
   </div>
 </div>
 
-<div class="container px-4 py-5" id="custom-cards">
+<div class="container px-4 py-5 shadow-lg" id="custom-cards">
   <h1 class="pb-2 border-bottom">Propuesta de valor y objetivos</h1>
   <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-    <ng-container *ngFor="let info of axis_info">
-      <app-axis [axis]="info.axis" [title]="info.title"></app-axis>
+    <ng-container *ngFor="let info of obj_info">
+      <app-objective [obj]="info.obj" [title]="info.title"></app-objective>
     </ng-container>
   </div>
 </div>

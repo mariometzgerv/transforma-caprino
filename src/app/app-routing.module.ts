@@ -6,6 +6,7 @@ import { PageHomeComponent } from './features/pages/page-home/page-home.componen
 import { PageInfoComponent } from './features/pages/page-info/page-info.component';
 import { PageNewsComponent } from './features/pages/page-news/page-news.component';
 import { PageProvidersComponent } from './features/pages/page-providers/page-providers.component';
+import { PageNewsDetailComponent } from './features/pages/page-news-detail/page-news-detail.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'inicio' },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'governanza', component: PageGovernanceComponent },
   { path: 'productores', component: PageProvidersComponent },
   { path: 'noticias', component: PageNewsComponent },
+  { path: 'noticias/detalle/:id', component: PageNewsDetailComponent },
   { path: 'historia', component: PageHistoryComponent },
 ];
 

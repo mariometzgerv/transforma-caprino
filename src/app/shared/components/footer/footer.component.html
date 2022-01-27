@@ -30,29 +30,29 @@
         </div>
         <div class="col-6 col-md-3 my-3 text-center">
             <h4>Últimas noticias</h4>
-            <app-news-item></app-news-item>
+            <app-news-item [id]="news.id" [img]="news.img" [date]="news.date" [title]="news.title"></app-news-item>
         </div>
         <div class="col-6 col-md-2 my-3 text-center">
             <h4>Síguenos en</h4>
             <ul class="navbar-nav">
                 <li>
                     <a href="https://www.facebook.com/caprinochile/" target="_blank">
-                        <i class="bi bi-facebook text-dark caprino-icon-size"></i>
+                        <i class="bi bi-facebook caprino-icon-social"></i>
                     </a>
                 </li>
                 <li>
                     <a href="https://www.instagram.com/caprinochile/" target="_blank">
-                        <i class="bi bi-instagram text-dark caprino-icon-size"></i>
+                        <i class="bi bi-instagram caprino-icon-social"></i>
                     </a>
                 </li>
                 <li>
                     <a href="https://twitter.com/caprinochile" target="_blank">
-                        <i class="bi bi-twitter text-dark caprino-icon-size"></i>
+                        <i class="bi bi-twitter caprino-icon-social"></i>
                     </a>
                 </li>
                 <li>
                     <a href="https://cl.linkedin.com/company/transformaturismo" target="_blank">
-                        <i class="bi bi-youtube text-dark caprino-icon-size"></i>
+                        <i class="bi bi-youtube caprino-icon-social"></i>
                     </a>
                 </li>
             </ul>
