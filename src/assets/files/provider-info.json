@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "owner": "Abel Pinilla",
+    "name": "Abel Pinilla",
+    "city": "Canela",
+    "mail": "pinilla_6789@hotmail.com",
+    "product": "Queso"
+  },
+  {
+    "id": 2,
+    "owner": "Agrícola Santa Andrea Ltda",
+    "name": "Agrícola Santa Andrea Ltda",
+    "city": "Río Hurtado",
+    "mail": "-",
+    "product": "Queso"
+  },
+  {
+    "id": 3,
+    "owner": "Alberto Alfonso Peralta",
+    "name": "Quesos Las Majadas",
+    "city": "Punitaqui",
+    "mail": "quesoslasmajadas@gmail.com",
+    "product": "Queso"
+  },
+  {
+    "id": 4,
+    "owner": "Analio Acosta",
+    "name": "Soc gropecuaria Mincha Ltda.",
+    "city": "Canela",
+    "mail": "angela.acosta.zepeda@gmail.com",
+    "product": "Queso"
+  },
+  {
+    "id": 5,
+    "owner": "Beatriz Rivera",
+    "name": "Beatriz Rivera",
+    "city": "Monte Patria",
+    "mail": "g.integrallasramadas@gmail.com",
+    "product": "Queso, Manjar y Yogurt"
+  },
+  {
+    "id": 6,
+    "owner": "Brisa Godoy",
+    "name": "Delicias de El Tebal",
+    "city": "Salamanca",
+    "mail": "godoy.collao@gmail.com",
+    "product": "Charqui, Mermeladas y Frutos Secos"
+  }
+]

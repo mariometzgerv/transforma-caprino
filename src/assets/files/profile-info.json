@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Ingrid Haselbauer Tarraza",
+        "role": "Gerente del Programa Transforma Caprino",
+        "prof": "Médico veterinario, Universidad de Chile, ex gestora del Programa Territorial Integrado caprino de la región de Coquimbo",
+        "sub": "",
+        "des": "Integrante del comité ejecutivo",
+        "img": "./assets/images/profile/ingrid_haselbauer.png"
+    },
+    {
+        "name": "Franco Cares",
+        "role": "Profesional de apoyo del Programa",
+        "prof": "Ingeniero Industrial, Universidad Católica del Norte",
+        "sub": "",
+        "des": "Integrante del comité ejecutivo",
+        "img": "./assets/images/profile/franco_cares.png"
+    },
+    {
+        "name": "Daniel Gómez Bullard",
+        "role": "Ejecutivo Corfo",
+        "prof": "Ingeniero Agrónomo Universidad La Serena",
+        "sub": "Profesional a cargo del Programa Transforma Caprino",
+        "des": "Integrante del comité ejecutivo",
+        "img": "./assets/images/profile/daniel_gomez.png"
+    },
+    {
+        "name": "Elena García",
+        "role": "Ejecutiva AOI",
+        "prof": "Directora de la oficina regional La Serena ASOEX AG.",
+        "sub": "Agencia Operador Intermedia del Programa",
+        "des": "Integrante del comité ejecutivo",
+        "img": "./assets/images/profile/elena_garcia.png"
+    }
+]

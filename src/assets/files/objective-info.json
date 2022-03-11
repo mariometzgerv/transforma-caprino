@@ -5,7 +5,7 @@
     },
     {
         "obj": 2,
-        "title": "Diversificar y sofisticar la oferta de productos y servicios asociados rubro"
+        "title": "Diversificar y sofisticar la oferta de productos y servicios asociados al rubro"
     },
     {
         "obj": 3,
@@ -14,6 +14,10 @@
     {
         "obj": 4,
         "title": "Apoyar inversiones en infraestructura y equipamiento para el desarrollo de oportunidades de negocios"
+    },
+    {
+        "obj":"",
+        "title": ""
     },
     {
         "obj": 5,
