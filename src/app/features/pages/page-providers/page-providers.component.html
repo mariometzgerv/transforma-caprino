@@ -10,8 +10,8 @@
         </pagination-controls>
 
         <div class="row row-cols-sm-1 g-3 mb-5">
-            <div *ngFor="let provider of providers | paginate: { itemsPerPage: 3, currentPage: page }">
-                <app-provider></app-provider>
+            <div *ngFor="let info of provider_info | paginate: { itemsPerPage: 3, currentPage: page }">
+                <app-provider [id]="info.id" [owner]="info.owner" [name]="info.name" [city]="info.city" [mail]="info.mail" [product]="info.product" [img]="info.img"></app-provider>
             </div>
         </div>
     </div>

@@ -5,7 +5,8 @@
     "name": "Abel Pinilla",
     "city": "Canela",
     "mail": "pinilla_6789@hotmail.com",
-    "product": "Queso"
+    "product": "Queso",
+    "img": "./assets/images/general/capricultores.png"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "name": "Agrícola Santa Andrea Ltda",
     "city": "Río Hurtado",
     "mail": "-",
-    "product": "Queso"
+    "product": "Queso",
+    "img": "./assets/images/general/capricultores.png"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "name": "Quesos Las Majadas",
     "city": "Punitaqui",
     "mail": "quesoslasmajadas@gmail.com",
-    "product": "Queso"
+    "product": "Queso",
+    "img": "./assets/images/general/capricultores.png"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "name": "Soc gropecuaria Mincha Ltda.",
     "city": "Canela",
     "mail": "angela.acosta.zepeda@gmail.com",
-    "product": "Queso"
+    "product": "Queso",
+    "img": "./assets/images/general/capricultores.png"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "name": "Beatriz Rivera",
     "city": "Monte Patria",
     "mail": "g.integrallasramadas@gmail.com",
-    "product": "Queso, Manjar y Yogurt"
+    "product": "Queso, Manjar y Yogurt",
+    "img": "./assets/images/general/capricultores.png"
   },
   {
     "id": 6,
@@ -45,6 +50,71 @@
     "name": "Delicias de El Tebal",
     "city": "Salamanca",
     "mail": "godoy.collao@gmail.com",
-    "product": "Charqui, Mermeladas y Frutos Secos"
+    "product": "Charqui, Mermeladas y Frutos Secos",
+    "img": "./assets/images/general/capricultores.png"
+  },
+  {
+    "id": 7,
+    "owner": "Cecilia Pasten",
+    "name": "Quesos Altos del Tome",
+    "city": "Monte Patria",
+    "mail": "cecilpas@gmail.com",
+    "product": "Queso gourmet",
+    "img": "./assets/images/general/capricultores.png"
+  },
+  {
+    "id": 8,
+    "owner": "Daniel Contreras",
+    "name": "Catahueche",
+    "city": "Canela",
+    "mail": "dcontrerasaraya@gmail.com",
+    "product": "Carne de Cabra preparada (Hamburguesas y mechada)",
+    "img": "./assets/images/provider/catahueche.jpg"
+  },
+  {
+    "id": 9,
+    "owner": "David Arancibia",
+    "name": "David Arancibia",
+    "city": "Monte Patria",
+    "mail": "arancibia.dvd@gmail.com",
+    "product": "Queso",
+    "img": "./assets/images/general/capricultores.png"
+  },
+  {
+    "id": 10,
+    "owner": "Domingo Barraza",
+    "name": "Cooperativa de transhumantes de Illapel (COOPTRA)",
+    "city": "Illapel",
+    "mail": "cooperativatranshumantesillapel@gmail.com",
+    "product": "Queso tradicional y con especias",
+    "img": "./assets/images/general/capricultores.png"
+  }
+  ,
+  {
+    "id": 11,
+    "owner": "Elizabeth Grandón",
+    "name": "De Cerro en Cerro",
+    "city": "Canela",
+    "mail": "e.grandonsalazar@gmail.com",
+    "product": "Charqui y proyecto Cuajo",
+    "img": "./assets/images/general/capricultores.png"
+  },
+  {
+    "id": 12,
+    "owner": "Gabriela Ibacache",
+    "name": "Choapa Andino",
+    "city": "Salamanca",
+    "mail": "apricultoreschoapaandino@gmail.com",
+    "product": "Queso maduro de cordillera",
+    "img": "./assets/images/general/capricultores.png"
+  },
+  {
+    "id": 13,
+    "owner": "Gerardo Toledo",
+    "name": "De La Cruz",
+    "city": "Monte Patria",
+    "mail": "g42delacruz@gmail.com",
+    "product": "leche embotellada y jabones",
+    "img": "./assets/images/general/capricultores.png"
   }
 ]

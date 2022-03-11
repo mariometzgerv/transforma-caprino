@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import providerinfo from "src/assets/files/provider-info.json";
 
 @Component({
   selector: 'app-page-providers',
@@ -7,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageProvidersComponent implements OnInit {
 
+  provider_info: { id: number, owner: string, name: string, city: string, mail: string, product: string, img: string } [] = providerinfo;
   page: number = 0;
-  providers: number[] = [1, 2, 3, 4, 5];
 
   constructor() { }
 
