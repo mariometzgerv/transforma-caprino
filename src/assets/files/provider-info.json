@@ -59,7 +59,7 @@
     "name": "Quesos Altos del Tome",
     "city": "Monte Patria",
     "mail": "cecilpas@gmail.com",
-    "product": "Queso gourmet",
+    "product": "Queso Gourmet",
     "img": "./assets/images/general/capricultores.png"
   },
   {
@@ -88,15 +88,14 @@
     "mail": "cooperativatranshumantesillapel@gmail.com",
     "product": "Queso tradicional y con especias",
     "img": "./assets/images/general/capricultores.png"
-  }
-  ,
+  },
   {
     "id": 11,
     "owner": "Elizabeth Grandón",
     "name": "De Cerro en Cerro",
     "city": "Canela",
     "mail": "e.grandonsalazar@gmail.com",
-    "product": "Charqui y proyecto Cuajo",
+    "product": "Charqui y Proyecto Cuajo",
     "img": "./assets/images/general/capricultores.png"
   },
   {
@@ -114,7 +113,81 @@
     "name": "De La Cruz",
     "city": "Monte Patria",
     "mail": "g42delacruz@gmail.com",
-    "product": "leche embotellada y jabones",
+    "product": "Leche embotellada y Jabones",
+    "img": "./assets/images/general/capricultores.png"
+  },
+  {
+    "id": 14,
+    "owner": "Gonzalo Iriarte",
+    "name": "Gonzalo Iriarte",
+    "city": "Monte Patria",
+    "mail": "gonzaloiriartegias@gmail.com",
+    "product": "Queso",
+    "img": "./assets/images/general/capricultores.png"
+  },
+  {
+    "id": 15,
+    "owner": "Jorge Palta",
+    "name": "Quesos El corte Sano",
+    "city": "Monte Patria",
+    "mail": "jennypalta212@gmail.com",
+    "product": "Queso Gourmet",
+    "img": "./assets/images/general/capricultores.png"
+  },
+  {
+    "id": 16,
+    "owner": "Jorge Patricio Godoy Arenas",
+    "name": "Jorge Patricio Godoy Arenas",
+    "city": "Combarbalá",
+    "mail": "-",
+    "product": "Queso",
+    "img": "./assets/images/general/capricultores.png"
+  }
+  ,
+  {
+    "id": 17,
+    "owner": "Josué Torres",
+    "name": "Quesos Zanjón de Quilitapia",
+    "city": "Combarbalá",
+    "mail": "josuetorresagropecuario@gmail.com",
+    "product": "Queso Gourmet",
+    "img": "./assets/images/general/capricultores.png"
+  },
+  {
+    "id": 18,
+    "owner": "Julio Armando Cortes Cortes",
+    "name": "Julio Armando Cortes Cortes ",
+    "city": "Combarbalá",
+    "mail": "gc16280@gmail.com",
+    "product": "Charqui",
+    "img": "./assets/images/general/capricultores.png"
+  },
+  {
+    "id": 19,
+    "owner": "Luis Bugueño",
+    "name": "Quesoso Los Potrerillos del pobre cojo",
+    "city": "Punitaqui",
+    "mail": "barichobr@gmail.com",
+    "product": "Queso Tradicional",
+    "img": "./assets/images/general/capricultores.png"
+  }
+  ,
+  {
+    "id": 20,
+    "owner": "Luzmenia Moyano",
+    "name": "Luzmenia Moyano",
+    "city": "Combarbalá",
+    "mail": "luzmeniamoyano599@gmail.com",
+    "product": "Queso",
+    "img": "./assets/images/general/capricultores.png"
+  },
+  {
+    "id": 21,
+    "owner": "Julio Armando Cortes Cortes",
+    "name": "Julio Armando Cortes Cortes ",
+    "city": "Combarbalá",
+    "mail": "gc16280@gmail.com",
+    "product": "Charqui",
     "img": "./assets/images/general/capricultores.png"
   }
 ]
