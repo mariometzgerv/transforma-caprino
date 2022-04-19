@@ -10,7 +10,7 @@ import profileinfo from "src/assets/files/profile-info.json";
 })
 export class PageInfoComponent implements OnInit {
 
-  axis_info: { axis: number, title: string, objective: string, initiatives: Array<string> } [] = axisinfo;
+  axis_info: { title: string, objective: string, initiatives: Array<string> } [] = axisinfo;
   purpose_info: { title: string, description: string } [] = purposeinfo;
   profile_info: { name: string, role: string, prof: string, sub: string, des: string, img: string } [] = profileinfo;
 

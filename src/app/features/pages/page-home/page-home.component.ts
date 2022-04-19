@@ -8,7 +8,7 @@ import objectiveinfo from "src/assets/files/objective-info.json";
 })
 export class PageHomeComponent implements OnInit {
 
-  obj_info: { obj: number, title: string } [] = objectiveinfo;
+  obj_info: { title: string } [] = objectiveinfo;
 
   constructor() { }
 

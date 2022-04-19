@@ -39,6 +39,10 @@
     height: 200px;
 }
 
+.caprino-card-size-md {
+    height: 340px;
+}
+
 .caprino-card-size-lg {
     height: 450px;
 }

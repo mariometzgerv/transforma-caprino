@@ -7,7 +7,6 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ObjectiveComponent implements OnInit {
 
-  @Input() obj: number = 1;
   @Input() title: string = "Default";
 
   constructor() { }

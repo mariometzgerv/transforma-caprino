@@ -42,7 +42,7 @@
 <div class="container px-4" id="custom-cards">
     <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
         <ng-container *ngFor="let info of axis_info">
-            <app-axis [axis]="info.axis" [title]="info.title" [objective]="info.objective" [initiatives]="info.initiatives"></app-axis>
+            <app-axis [title]="info.title" [objective]="info.objective" [initiatives]="info.initiatives"></app-axis>
         </ng-container>
     </div>
 </div>

@@ -1,6 +1,5 @@
 [
     {
-        "axis": 1,
         "title": "Mercado",
         "objective": "Promover y posicionar los productos lácteos y cárnicos caprinos en el mercado",
         "initiatives":
@@ -11,7 +10,6 @@
         ]
     },
     {
-        "axis": 2,
         "title": "Diversificación y sofisticación",
         "objective": "Diversificar y sofisticar la oferta de productos y servicios asociados rubro.",
         "initiatives":
@@ -23,7 +21,6 @@
         ]
     },
     {
-        "axis": 3,
         "title": "Desarrollo de capacidades",
         "objective": "Fortalecer  las capacidades productivas, comerciales y gestión empresarial de los productores, profesionales y técnicos vinculados al rubro caprinos.",
         "initiatives":
@@ -36,7 +33,6 @@
         ]
     },
     {
-        "axis": 4,
         "title": "Infraestructura habilitante",
         "objective": "Apoyar inversiones en infraestructura y equipamiento para el desarrollo de  oportunidades de negocios.",
         "initiatives":
@@ -45,7 +41,6 @@
         ]
     },
     {
-        "axis": 5,
         "title": "Gobernanza",
         "objective": "Fortalecer la coordinación institucional público y privada en torno al rubro caprino.",
         "initiatives":
