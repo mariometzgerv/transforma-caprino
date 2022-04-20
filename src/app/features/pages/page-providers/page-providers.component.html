@@ -1,19 +1,23 @@
-<div class="row row-cols-sm-2">
-    <div class="col-sm-1 my-auto text-center">
-        <img class="rounded mx-auto d-block" src="./assets/images/providers.png">
+<div class="row">
+    <div class="col-3 my-auto text-center">
+        <img class="rounded mx-auto d-block" src="./assets/images/providers-left.png">
     </div>
 
-    <div class="container p-5 shadow-lg">
+    <div class="container col p-5 shadow-lg">
         <pagination-controls (pageChange)="page = $event"
             previousLabel="Anterior"
             nextLabel="Siguiente">
         </pagination-controls>
 
-        <div class="row row-cols-sm-1 g-3 mb-5">
+        <div class="row row-cols-sm-1 g-3 mb-5 text-center">
             <div *ngFor="let info of provider_info | paginate: { itemsPerPage: 3, currentPage: page }">
                 <app-provider [id]="info.id" [owner]="info.owner" [name]="info.name" [city]="info.city" [mail]="info.mail" [product]="info.product" [img]="info.img"></app-provider>
             </div>
         </div>
+    </div>
+
+    <div class="col-3 my-auto text-center">
+        <img class="rounded mx-auto d-block" src="./assets/images/providers-right.png">
     </div>
 </div>
 

@@ -1,7 +1,7 @@
 <div class="col shadow-sm">
     <div class="card card-cover overflow-hidden text-black text-center rounded-5 shadow-lg caprino-bg-orange caprino-card caprino-card-min-size-sm">
         <div class="d-flex flex-column pt-5 px-3 text-shadow-1" (click)="expand()">
-            <h1 class="display-6 pb-3 fw-bold">Eje: {{ title }}</h1>
+            <h1 class="display-6 pb-3 fw-bold">{{ title }}</h1>
             <p class="lead pb-3">{{ objective }}</p>
         </div>
         <div *ngIf="expanded">

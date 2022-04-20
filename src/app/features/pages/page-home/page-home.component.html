@@ -3,16 +3,24 @@
     <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
     <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
     <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+    <li data-bs-target="#carouselId" data-bs-slide-to="3"></li>
+    <li data-bs-target="#carouselId" data-bs-slide-to="4"></li>
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
-      <img src="assets/images/img1.jpg" class="w-100" alt="First slide">
+      <img src="assets/images/carousel/slide1.jpg" class="w-100" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img src="assets/images/img2.jpg" class="w-100" alt="Second slide">
+      <img src="assets/images/carousel/slide2.jpg" class="w-100" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img src="assets/images/img3.jpg" class="w-100" alt="Third slide">
+      <img src="assets/images/carousel/slide3.jpg" class="w-100" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/carousel/slide4.jpg" class="w-100" alt="Fourth slide">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/carousel/slide5.jpg" class="w-100" alt="Fifth slide">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
@@ -61,7 +69,10 @@
 <div class="container px-4 py-5 shadow-lg" id="custom-cards">
   <h1 class="pb-2 border-bottom">Propuesta de valor y objetivos</h1>
   <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-    <ng-container *ngFor="let info of obj_info">
+    <ng-container *ngFor="let info of obj_info; index as i">
+      <div *ngIf="i == 4">
+        <img src="assets/images/logo2.png" class="w-100" alt="Third slide">
+      </div>
       <app-objective [title]="info.title"></app-objective>
     </ng-container>
   </div>
