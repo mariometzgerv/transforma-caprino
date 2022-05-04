@@ -5,7 +5,7 @@
 <div class="container my-5">
     <div class="row row-cols-1 row-cols-sm-3 g-3 mb-5">
         <div *ngFor="let n of news | paginate: { itemsPerPage: 6, currentPage: page }">
-            <app-news-item [id]="n.id" [img]="n.img" [date]="n.date" [title]="n.title"></app-news-item>
+            <app-news-item [id]="n.id" [date]="n.date" [title]="n.title" [url]="n.url" [img]="n.img"></app-news-item>
         </div>
     </div>
 

@@ -9,7 +9,7 @@ import newsinfo from "src/assets/files/news-info.json";
 export class PageNewsComponent implements OnInit {
 
   page: number = 0;
-  news: { id: number, img:string, date: string, title: string } [] = newsinfo;
+  news: { id: number, date: string, title: string, url: string, img: string } [] = newsinfo;
 
   constructor() { }
 

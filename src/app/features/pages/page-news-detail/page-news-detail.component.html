@@ -1,14 +1,15 @@
-<div class="container col rounded rounded-lg">
+<div class="container col rounded rounded-lg w-50">
     <div class="card-body shadow-lg">
-        <h1 class="display-1">{{ n.title }}</h1>
+        <h1 class="display-4 text-center">{{ n.title }}</h1>
         <span>{{ n.date }}</span>
-        <img class="mx-auto d-block" src="{{ n.img }}" width="100%">
-        <p class="lead text-center p-5 border shadow-lg">
-            Aunque la región se destaca por una fuerte institucionalidad tanto de investigación,
-            transferencia y capacitación en el área caprina; con importantes esfuerzos de coordinación interinstitucional
-            en el sector, especialmente a través del instrumento PTI; existe un reconocimiento de los actores que aún la
-            institucional es débil entre los agentes público-privado y público-público.
-        </p>
+        <embed *ngIf="n.id === 31032022" class="mx-auto d-block w-100" src="./assets/files/news/31032022/31032022.html" style="height:1650px;">
+        <embed *ngIf="n.id === 25032022" class="mx-auto d-block w-100" src="./assets/files/news/25032022/25032022.html" style="height:1850px;">
+        <embed *ngIf="n.id === 24022022" class="mx-auto d-block w-100" src="./assets/files/news/24022022/24022022.html" style="height:1650px;">
+        <embed *ngIf="n.id === 27012022" class="mx-auto d-block w-100" src="./assets/files/news/27012022/27012022.html" style="height:1850px;">
+        <embed *ngIf="n.id === 17012022" class="mx-auto d-block w-100" src="./assets/files/news/17012022/17012022.html" style="height:1150px;">
+        <embed *ngIf="n.id === 13012022" class="mx-auto d-block w-100" src="./assets/files/news/13012022/13012022.html" style="height:3400px;">
+        <embed *ngIf="n.id === 12112021" class="mx-auto d-block w-100" src="./assets/files/news/12112021/12112021.html" style="height:1850px;">
+        <embed *ngIf="n.id === 08092021" class="mx-auto d-block w-100" src="./assets/files/news/08092021/08092021.html" style="height:1850px;">
     </div>
 </div>
 

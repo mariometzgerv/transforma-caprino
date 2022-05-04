@@ -1,56 +1,58 @@
 [
     {
-        "id": 8,
-        "img": "./assets/images/news/9.jpg",
-        "date": "28/02/2022",
-        "title": "Título 9"
+        "id": 31032022,
+        "date": "31/03/2022",
+        "title": "Productores caprinos cada vez más cerca de abrir sus productos y servicios al rubro turístico",
+        "url": "./assets/files/news/31032022/31032022.html",
+        "img": "./assets/files/news/31032022/31032022.png"
     },
     {
-        "id": 7,
-        "img": "./assets/images/news/8.jpg",
-        "date": "27/02/2022",
-        "title": "Título 8"
+        "id": 25032022,
+        "date": "25/03/2022",
+        "title": "¡Volvieron las formaciones presenciales! Capricultores retoman sus aprendizajes en elaboración de quesos",
+        "url": "./assets/files/news/25032022/25032022.html",
+        "img": "./assets/files/news/25032022/25032022.png"
     },
     {
-        "id": 6,
-        "img": "./assets/images/news/7.jpg",
-        "date": "20/02/2022",
-        "title": "Título 7"
+        "id": 24022022,
+        "date": "24/02/2022",
+        "title": "Empresarios gastronómicos apuestan por capricultores locales debido a la calidad e inocuidad de sus productos",
+        "url": "./assets/files/news/24022022/24022022.html",
+        "img": "./assets/files/news/24022022/24022022.png"
     },
     {
-        "id": 5,
-        "img": "./assets/images/news/6.jpg",
-        "date": "03/02/2022",
-        "title": "Título 6"
+        "id": 27012022,
+        "date": "27/01/2022",
+        "title": "Foodtruck de productos caprinos estará disponible hasta fines de febrero en la Avenida del Mar en La Serena",
+        "url": "./assets/files/news/27012022/27012022.html",
+        "img": "./assets/files/news/27012022/27012022.png"
     },
     {
-        "id": 4,
-        "img": "./assets/images/news/5.jpg",
-        "date": "29/01/2022",
-        "title": "Título 5"
+        "id": 17012022,
+        "date": "17/01/2022",
+        "title": "Transforma Caprino presentó su plan de acción al Gobierno Regional en Coquimbo",
+        "url": "./assets/files/news/17012022/17012022.html",
+        "img": "./assets/files/news/17012022/17012022.png"
     },
     {
-        "id": 3,
-        "img": "./assets/images/news/4.jpg",
-        "date": "21/01/2022",
-        "title": "Título 4"
+        "id": 13012022,
+        "date": "13/01/2022",
+        "title": "Con éxito se realizó Expo Caprina 2021 en La Serena",
+        "url": "./assets/files/news/13012022/13012022.html",
+        "img": "./assets/files/news/13012022/13012022.png"
     },
     {
-        "id": 2,
-        "img": "./assets/images/news/3.jpg",
-        "date": "10/01/2022",
-        "title": "Título 3"
+        "id": 12112021,
+        "date": "12/11/2021",
+        "title": "Impulsan la vinculación del sector caprino con el rubro turístico",
+        "url": "./assets/files/news/12112021/12112021.html",
+        "img": "./assets/files/news/12112021/12112021.png"
     },
     {
-        "id": 1,
-        "img": "./assets/images/news/2.jpg",
-        "date": "08/01/2022",
-        "title": "Título 2"
-    },
-    {
-        "id": 0,
-        "img": "./assets/images/news/1.jpg",
-        "date": "01/01/2022",
-        "title": "Título 1"
+        "id": 8092021,
+        "date": "08/09/2021",
+        "title": "La transformación del PTI Caprino y su proyección dentro del nuevo escenario regional",
+        "url": "./assets/files/news/08092021/08092021.html",
+        "img": "./assets/files/news/08092021/08092021.png"
     }
 ]

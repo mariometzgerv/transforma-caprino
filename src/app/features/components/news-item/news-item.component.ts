@@ -8,9 +8,10 @@ import { Component, OnInit, Input } from '@angular/core';
 export class NewsItemComponent implements OnInit {
 
   @Input() id: number = 0;
-  @Input() img: string = "./assets/images/img3.jpg";
   @Input() date: string = "01/01/2022";
   @Input() title: string = "Default";
+  @Input() url: string = "Default";
+  @Input() img: string = "Default";
 
   constructor() { }
 
