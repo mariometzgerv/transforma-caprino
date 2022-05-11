@@ -9,7 +9,7 @@ import newsinfo from "src/assets/files/news-info.json";
 })
 export class FooterComponent implements OnInit {
 
-  news: { id: number, img:string, date: string, title: string } = newsinfo[0];
+  news: { id: number, date: string, title: string, img:string } = newsinfo[0];
 
   constructor(private router: Router) { }
 

@@ -6,7 +6,7 @@
     "city": "Canela",
     "mail": "pinilla_6789@hotmail.com",
     "product": "Queso",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "city": "Río Hurtado",
     "mail": "-",
     "product": "Queso",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "city": "Punitaqui",
     "mail": "quesoslasmajadas@gmail.com",
     "product": "Queso",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "city": "Canela",
     "mail": "angela.acosta.zepeda@gmail.com",
     "product": "Queso",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "city": "Monte Patria",
     "mail": "g.integrallasramadas@gmail.com",
     "product": "Queso, Manjar y Yogurt",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "city": "Salamanca",
     "mail": "godoy.collao@gmail.com",
     "product": "Charqui, Mermeladas y Frutos Secos",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "city": "Monte Patria",
     "mail": "cecilpas@gmail.com",
     "product": "Queso Gourmet",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   },
   {
     "id": 8,
@@ -78,7 +78,7 @@
     "city": "Monte Patria",
     "mail": "arancibia.dvd@gmail.com",
     "product": "Queso",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "city": "Illapel",
     "mail": "cooperativatranshumantesillapel@gmail.com",
     "product": "Queso tradicional y con especias",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "city": "Canela",
     "mail": "e.grandonsalazar@gmail.com",
     "product": "Charqui y Proyecto Cuajo",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   },
   {
     "id": 12,
@@ -105,7 +105,7 @@
     "city": "Salamanca",
     "mail": "apricultoreschoapaandino@gmail.com",
     "product": "Queso maduro de cordillera",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   },
   {
     "id": 13,
@@ -114,7 +114,7 @@
     "city": "Monte Patria",
     "mail": "g42delacruz@gmail.com",
     "product": "Leche embotellada y Jabones",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   },
   {
     "id": 14,
@@ -123,7 +123,7 @@
     "city": "Monte Patria",
     "mail": "gonzaloiriartegias@gmail.com",
     "product": "Queso",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   },
   {
     "id": 15,
@@ -132,7 +132,7 @@
     "city": "Monte Patria",
     "mail": "jennypalta212@gmail.com",
     "product": "Queso Gourmet",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   },
   {
     "id": 16,
@@ -141,7 +141,7 @@
     "city": "Combarbalá",
     "mail": "-",
     "product": "Queso",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   }
   ,
   {
@@ -151,7 +151,7 @@
     "city": "Combarbalá",
     "mail": "josuetorresagropecuario@gmail.com",
     "product": "Queso Gourmet",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   },
   {
     "id": 18,
@@ -160,7 +160,7 @@
     "city": "Combarbalá",
     "mail": "gc16280@gmail.com",
     "product": "Charqui",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   },
   {
     "id": 19,
@@ -169,7 +169,7 @@
     "city": "Punitaqui",
     "mail": "barichobr@gmail.com",
     "product": "Queso Tradicional",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   }
   ,
   {
@@ -179,7 +179,7 @@
     "city": "Combarbalá",
     "mail": "luzmeniamoyano599@gmail.com",
     "product": "Queso",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   },
   {
     "id": 21,
@@ -188,6 +188,6 @@
     "city": "Combarbalá",
     "mail": "gc16280@gmail.com",
     "product": "Charqui",
-    "img": "./assets/images/general/capricultores.png"
+    "img": "./assets/images/logo2.png"
   }
 ]
