@@ -19,6 +19,7 @@ import { PurposeComponent } from './features/components/purpose/purpose.componen
 import { ObjectiveComponent } from './features/components/objective/objective.component';
 import { PageNewsDetailComponent } from './features/pages/page-news-detail/page-news-detail.component';
 import { ProviderComponent } from './features/components/provider/provider.component';
+import { PageStudiesComponent } from './features/pages/page-studies/page-studies.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { ProviderComponent } from './features/components/provider/provider.compo
     PurposeComponent,
     ObjectiveComponent,
     PageNewsDetailComponent,
-    ProviderComponent
+    ProviderComponent,
+    PageStudiesComponent
   ],
   imports: [
     BrowserModule,
